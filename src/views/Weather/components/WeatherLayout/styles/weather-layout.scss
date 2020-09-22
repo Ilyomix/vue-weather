@@ -1,0 +1,22 @@
+.weather-layout-wrapper {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.weather-layout-wrapper .weather-informations-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    align-items: flex-end;
+    padding-bottom: 2rem;
+}
+
+.weather-layout-wrapper .weather-city-selection-wrapper {
+    width: 600px;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}

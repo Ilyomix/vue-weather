@@ -1,0 +1,88 @@
+.weather-informations-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 2rem 4rem 7rem;
+}
+
+.weather-informations-parent .temp-value {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1;
+    transform: translateY(4px);
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+.weather-informations-parent .temp-value .integer {
+    font-size: 162px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    transform: translateY(9px);
+    text-shadow: 0.01em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+.weather-informations-parent .temp-value .symbol {
+    font-size: 80px;
+    align-items: flex-start;
+    display: flex;
+    transform: translateY(1.1rem);
+    text-shadow: 0.01em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+.weather-informations-parent .date-and-location {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.weather-informations-parent .date-and-location .city {
+    font-size: 54px;
+    font-weight: 500;
+    text-shadow: 0.01em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+.weather-informations-parent .date-and-location .date {
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0.01em 0.1em 0.1em rgba(0,0,0,0.2);
+    transform: translate(0.2rem, -0.5rem);
+    margin-right: 2rem;
+}
+
+
+.weather-informations-parent .conditions {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transform: translate(0.2rem, -0.5rem);
+    text-shadow: 0.01em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+
+.weather-informations-parent .conditions .icon {
+    display: flex;
+    align-items: flex-end;
+    transform: translateY(-1rem);
+}
+
+.weather-informations-parent .conditions .icon img {
+    height: 100px;
+    filter: invert(1);
+}
+
+.weather-informations-parent .conditions .icon img.box-shadow-icon {
+    height: 100px;
+    position: absolute;
+    filter: invert(0) blur(10px) opacity(0.3);
+}
+
+.weather-informations-parent .conditions .text {
+    font-size: 18px;
+}
